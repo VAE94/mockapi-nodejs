@@ -1,29 +1,30 @@
 {
-  "name": "mockapi-nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "startdev": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VAE94/mockapi-nodejs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VAE94/mockapi-nodejs/issues"
-  },
-  "homepage": "https://github.com/VAE94/mockapi-nodejs#readme",
-  "dependencies": {
-    "body-parser": "^1.19.2",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "mongoose": "^6.2.3",
-    "nodemon": "^2.0.15"
-  }
+	"name": "node-js-basics",
+	"version": "1.0.0",
+	"description": "1. Initialize npm project\r    `npm init -y`",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"devStart": "nodemon app.js",
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/VAE94/mockapi-nodejs.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/VAE94/mockapi-nodejs.git"
+	},
+	"homepage": "https://github.com/VAE94/mockapi-nodejs.git#readme",
+	"dependencies": {
+		"body-parser": "^1.19.2",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"mongoose": "^6.2.2",
+		"nodemon": "^2.0.15"
+	}
 }
